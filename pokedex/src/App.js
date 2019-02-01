@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import PokeList from './Components/PokeList'
+import NavBar from './Components/NavBar'
 
 class App extends Component {
+
+
+
   render() {
     return (
       <div className="App">
-        <h1>See Your Pokemon Here!</h1>
+        <NavBar />
+        <h1>See Your Pokemon!</h1>
+
+
       </div>
     );
   }

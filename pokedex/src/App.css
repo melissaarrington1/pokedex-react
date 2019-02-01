@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Avenir Next', sans-serif;
-  background-color: #FE0065;
+  /* background-color: #FE0065; */
   
 }
 
+nav {
+    background-color: #FE0065;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
